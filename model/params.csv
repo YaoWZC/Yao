@@ -1,0 +1,14 @@
+key,value,low,high,distribution,source,note
+cycle_years,1,,,,PLACEHOLDER,循环周期长度（年）
+n_cycles,10,,,,PLACEHOLDER,循环次数
+discount_rate,0.05,0,0.08,beta,PLACEHOLDER,年贴现率（成本与效果同率）
+p_spd,0.01,0.005,0.02,beta,PLACEHOLDER,每周期 健康→死亡 概率
+p_pd,0.10,0.06,0.15,beta,PLACEHOLDER,每周期 进展→死亡 概率
+p_sp_std,0.10,0.06,0.15,beta,PLACEHOLDER,对照策略 健康→进展 概率
+p_sp_new,0.06,0.03,0.10,beta,PLACEHOLDER,干预策略 健康→进展 概率
+cost_s,3000,2000,4500,gamma,PLACEHOLDER,每周期 健康状态 医疗成本
+cost_p,9000,6000,13000,gamma,PLACEHOLDER,每周期 进展状态 医疗成本
+drug_cost_new,6000,4000,9000,gamma,PLACEHOLDER,干预策略每周期新增药品成本
+util_s,0.85,0.75,0.92,beta,PLACEHOLDER,健康状态效用值
+util_p,0.65,0.50,0.78,beta,PLACEHOLDER,进展状态效用值
+threshold,70000,40000,100000,NA,PLACEHOLDER,意愿支付阈值（元/QALY）
